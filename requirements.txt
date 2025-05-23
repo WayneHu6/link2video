@@ -1,0 +1,6 @@
+# Core dependencies
+playwright==1.52.0
+yt_dlp==2025.5.22
+tqdm==4.67.1
+requests==2.32.3
+rich==13.7.0             # 终端美化
