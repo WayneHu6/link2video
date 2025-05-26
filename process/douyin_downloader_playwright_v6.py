@@ -49,7 +49,6 @@ async def attempt_download_method1(page, video_url, filename, referer_url):
         api_response = await page.request.get(
             video_url,
             headers={
-                "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
                 "Referer": referer_url
             },
             timeout=18000
